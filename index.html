@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/index.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <header class="encabezado">
+            <div class="nombre-empresa">
+                <img src="./img/icons/icons8-logo-150.png" alt class="logo">
+                <div>
+                    <h1>Empresa xyz</h1>
+                    <h2>servicios xyz</h2>
+
+                </div>
+
+            </div>
+            <nav class="menu scroll-margin">
+                <a href="#portada" class="item-menu">Inicio</a>
+                <a href="#secciones" class="item-menu">Servicios</a>
+                <a href="#nosotros" class="item-menu">Nosotros</a>
+                <a href="#contactos" class="item-menu">Contactos</a>
+            </nav>
+        </header>
+        <main class="cuerpo">
+
+            <section id="portada" class="portada"
+                style="background-image: url('../img/fondos/fondo.jpg')">
+                <p class="etiqueta">
+                    Empresa XYZ brindando servicios desde 1990
+                </p>
+
+            </section>
+
+            <section id="secciones" class="secciones">
+
+                <div class="part-1">
+                    <p class="titulo-serv">SERVICIOS</p>
+                    <div class="linea-amarilla"></div>
+                </div>
+
+                <div class="part-2">
+                    <div class="servicios">
+
+                        <article class="servicios-individuales">
+                            <img src="./img/icons/icons8-logo-150.png" alt>
+                            <h4>Servicio 1</h4>
+                            <p class="texto">Lorem ipsum dolor sit amet
+                                consectetur,
+                                adipisicing elit. Modi perferendis maxime dolore
+                                iure minus pariatur nemo animi cumque amet
+                                voluptatibus deserunt architecto ducimus ipsum
+                                consequatur, facilis cupiditate repudiandae quos
+                                rem?</p>
+                        </article>
+                        <article class="servicios-individuales">
+                            <img src="./img/icons/icons8-logo-150.png" alt>
+                            <h4>Servicio 2</h4>
+                            <p class="texto">Lorem ipsum dolor sit amet
+                                consectetur,
+                                adipisicing elit. Modi perferendis maxime dolore
+                                iure minus pariatur nemo animi cumque amet
+                                voluptatibus deserunt architecto ducimus ipsum
+                                consequatur, facilis cupiditate repudiandae quos
+                                rem?</p>
+                        </article>
+
+                        <article class="servicios-individuales">
+                            <img src="./img/icons/icons8-logo-150.png" alt>
+                            <h4>Servicio 3</h4>
+                            <p class="texto">Lorem ipsum dolor sit amet
+                                consectetur,
+                                adipisicing elit. Modi perferendis maxime dolore
+                                iure minus pariatur nemo animi cumque amet
+                                voluptatibus deserunt architecto ducimus ipsum
+                                consequatur, facilis cupiditate repudiandae quos
+                                rem?</p>
+                        </article>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section id="nosotros" class="sobre-nosotros">
+
+                <div class="acerca-1">
+                    <p class="titulo-serv">NOSOTROS</p>
+                    <div class="linea-amarilla"></div>
+                    <p class="texto-2">Lorem ipsum dolor sit amet consectetur,
+                        adipisicing elit.
+                        Labore suscipit culpa eveniet reprehenderit fuga
+                        consequatur, exercitationem inventore voluptate nulla
+                        enim? Architecto quasi tempore exercitationem, officia
+                    </p>
+                </div>
+
+                <section class="acerca-2"
+                    style="background-image: url('../img/fondos/v1016-b-09.jpg')">
+
+                </section>
+
+            </section>
+
+            <section id="contactos" class="secciones">
+
+                <div class="part-1">
+                    <p class="titulo-serv">CONTACTOS</p>
+                    <div class="linea-amarilla"></div>
+                </div>
+
+                <div class="part-2">
+                    <div class="servicios">
+                        <div id="map"></div>
+
+                        <article class="servicios-individuales">
+                            <img src="./img/icons/icons8-logo-150.png" alt>
+                            <h4>Oficina Principal</h4>
+                            <p class="texto">
+                                Av. Los Rosales 122,
+                                28021, Madrid.
+                                <br><br>
+                                info@misitio.com
+                                <br>
+                                Teléfono: 914-135-288
+
+                            </p>
+
+                            <h4>Empleos</h4>
+                            <p class="texto">
+                                Para aplicar a un trabajo en Empresa XYZ, envía
+                                tu CV y carta de
+                                recomendación a: trabajo@utn.edu.ec
+                            </p>
+                            <h4>Recibe un presupuesto:
+                                099 999 9999</h4>
+
+                        </article>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+        </main>
+
+        <script src="./js/movimiento.js"></script>
+        <script src="./js/api-maps.js"></script>
+        <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
+    </body>
+</html>
